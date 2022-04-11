@@ -18,6 +18,11 @@
   --pale-blue: hsl(236, 100%, 87%);
 }
 
+.container{
+  display: flex;
+  align-content: center;
+}
+
 /*typography*/
 
 .descriptions{
