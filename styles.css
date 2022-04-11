@@ -64,3 +64,9 @@ ul.time-list {
   border: 3px solid #fff;
   border-radius: 50%;
 }
+
+/*activities*/
+
+.activities-card-container {
+    font-family: 'Rubik',sans-serif;
+}
