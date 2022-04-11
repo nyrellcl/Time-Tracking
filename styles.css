@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
 
 :root{
-  //Primary
+  /*Primary*/
   
   --blue: hsl(246, 80%, 60%);
   --work-red: hsl(15, 100%, 70%);
@@ -11,7 +11,7 @@
   --social-violet: hsl(264, 64%, 52%);
   --self-care-orange: hsl(43, 84%, 65%);
   
-  //Neutral
+  /*Neutral*/
   --v-dark-blue: hsl(226, 43%, 10%);
   --dark-blue: hsl(235, 46%, 20%);
   --desat-blue: hsl(235, 45%, 61%);
@@ -28,7 +28,7 @@
 
 .profile-name{
   font-family: 'Rubik', sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 2.5rem;
 }
 
