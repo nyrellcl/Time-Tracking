@@ -18,12 +18,6 @@
   --pale-blue: hsl(236, 100%, 87%);
 }
 
-.container{
-  display: grid;
-  align-items: center;
-  grid-template-columns: repeat(4, 200px);
-  grid-template-rows: repeat(2, auto);
-}
 
 /*typography*/
 
@@ -68,5 +62,9 @@ ul.time-list {
 /*activities*/
 
 .activities-card-container {
-    font-family: 'Rubik',sans-serif;
+  font-family: 'Rubik',sans-serif;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(2, auto);
 }
