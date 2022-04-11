@@ -18,6 +18,12 @@
   --pale-blue: hsl(236, 100%, 87%);
 }
 
+body {
+  margin: 0;
+  background-color: var(--v-dark-blue);
+  color: #fff;
+}
+
 .container{
   display: flex;
   justify-content: center;
@@ -29,6 +35,14 @@
   font-family: 'Rubik', sans-serif;
   font-weight: 300;
   font-size: 1.25rem;
+}
+
+.profile-container{
+  background-color: var(--blue);
+  border-radius: 5%;
+  width: 80%;
+  height: auto;
+  position: relative;
 }
 
 .profile-name{
