@@ -19,8 +19,10 @@
 }
 
 .container{
-  display: flex;
-  align-content: center;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat(2, auto);
 }
 
 /*typography*/
